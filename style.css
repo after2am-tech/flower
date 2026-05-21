@@ -509,7 +509,7 @@ body {
 }
 .flower__g-right .leaf {
   width: 30vmin;
-  height: 50vmin;
+  height: 75vmin;
   border-top-left-radius: 100%;
   border-left: 2vmin solid #2e8b57; 
   background-image: linear-gradient(to bottom, transparent, var(--dark-color) 60%);
@@ -524,7 +524,7 @@ body {
   animation: flower-g-right-ans--2 3s linear infinite;
 }
 .flower__g-right--2 .leaf {
-  height: 75vmin;
+  height: 95vmin;
   filter: blur(0.3vmin);
   opacity: 0.8;
 }
@@ -667,7 +667,7 @@ body {
 }
 .flower__g-fr .leaf {
   width: 30vmin;
-  height: 50vmin;
+  height: 75vmin;
   border-top-left-radius: 100%;
   border-left: 2vmin solid #2e8b57; 
   mask-image: linear-gradient(to top, transparent 25%, #2e8b57 50%); 
@@ -778,7 +778,7 @@ mask-image: linear-gradient(to top, transparent 40%, #228b22 80%) !important;
 }
 .long-g--1 .leaf--1 {
   --w: 5vmin;
-  --h: 60vmin;
+  --h: 85vmin;
   left: -2vmin;
   transform: rotate(3deg) rotateY(-180deg);
 }
@@ -786,7 +786,7 @@ mask-image: linear-gradient(to top, transparent 40%, #228b22 80%) !important;
   bottom: -3vmin;
   left: -35vmin;
   transform-origin: center;
-  transform: scale(0.6) rotateX(60deg);
+  transform: scale(1.2) rotateX(60deg);
 }
 .long-g--2 .leaf, .long-g--3 .leaf {
   mask-image: linear-gradient(to top, transparent 50%, #228b22 80%) !important;
@@ -806,7 +806,7 @@ mask-image: linear-gradient(to top, transparent 40%, #228b22 80%) !important;
   left: 25vmin;
   bottom: -3vmin;
   transform-origin: center;
-  transform: scale(0.6) rotateX(60deg);
+  transform: scale(1.2) rotateX(60deg);
 }
 .long-g--4 .leaf {
   mask-image: linear-gradient(to top, transparent 50%, #228b22 80%) !important;
@@ -814,26 +814,26 @@ mask-image: linear-gradient(to top, transparent 40%, #228b22 80%) !important;
 .long-g--5 {
   left: 42vmin;
   bottom: 0vmin;
-  transform: scale(0.8) rotate(2deg);
+  transform: scale(1.2) rotate(2deg);
 }
 .long-g--6 {
   left: 0vmin;
   bottom: -20vmin;
   z-index: 100;
   filter: blur(0.3vmin);
-  transform: scale(0.8) rotate(2deg);
+  transform: scale(1.4) rotate(2deg);
 }
 .long-g--7 {
   left: 35vmin;
   bottom: 20vmin;
   z-index: -1;
   filter: blur(0.3vmin);
-  transform: scale(0.6) rotate(2deg);
+  transform: scale(1.2) rotate(2deg);
   opacity: 0.7;
 }
 .long-g .leaf {
   --w: 15vmin;
-  --h: 40vmin;
+  --h: 65vmin;
   --c: #228b22; 
   position: absolute;
   bottom: 0;
